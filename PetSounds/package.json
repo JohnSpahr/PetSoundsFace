@@ -1,0 +1,45 @@
+{
+    "name": "petsounds",
+    "author": "John Spahr",
+    "version": "1.0.0",
+    "dependencies": {},
+    "pebble": {
+        "displayName": "PetSounds",
+        "uuid": "4c43aacf-eeca-43fc-acef-0fb9320caeee",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "watchapp": {
+            "watchface": true
+        },
+        "resources": {
+            "media": [{
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MONO_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/petsounds.png",
+                    "name": "IMAGE_PET_SOUNDS",
+                    "type": "bitmap"
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_COOPER_28",
+                    "file": "fonts/Cooper.ttf",
+                    "compatibility": "2.7"
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_CLARENDON_18",
+                    "file": "fonts/Clarendon.otf",
+                    "compatibility": "2.7"
+                }
+            ]
+        }
+    }
+}
