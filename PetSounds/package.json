@@ -1,10 +1,10 @@
 {
     "name": "petsounds",
     "author": "John Spahr",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependencies": {},
     "pebble": {
-        "displayName": "PetSounds",
+        "displayName": "Pet Sounds",
         "uuid": "4c43aacf-eeca-43fc-acef-0fb9320caeee",
         "sdkVersion": "3",
         "enableMultiJS": true,
