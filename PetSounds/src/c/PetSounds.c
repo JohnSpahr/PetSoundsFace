@@ -127,6 +127,9 @@ static void window_unload(Window *window)
   // unload GFonts...
   fonts_unload_custom_font(s_time_font);
   fonts_unload_custom_font(s_date_font);
+
+  //destroy bitmap
+  gbitmap_destroy(pet_sounds);
 }
 
 static void init(void)

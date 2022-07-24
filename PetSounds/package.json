@@ -1,7 +1,7 @@
 {
     "name": "petsounds",
     "author": "John Spahr",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependencies": {},
     "pebble": {
         "displayName": "Pet Sounds",
