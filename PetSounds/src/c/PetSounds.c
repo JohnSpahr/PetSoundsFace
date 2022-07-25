@@ -82,11 +82,11 @@ static void window_load(Window *window)
 
   // create time text layer...
   s_time_layer = text_layer_create(
-      GRect(PBL_IF_COLOR_ELSE(3, 0), PBL_IF_ROUND_ELSE(6, 0), bounds.size.w, bounds.size.h));
+      GRect(0, PBL_IF_ROUND_ELSE(6, 0), bounds.size.w, bounds.size.h));
 
   // create date text layer...
   s_date_layer = text_layer_create(
-      GRect(PBL_IF_COLOR_ELSE(3, 0), PBL_IF_ROUND_ELSE(34, 30), bounds.size.w, bounds.size.h));
+      GRect(0, PBL_IF_ROUND_ELSE(34, 30), bounds.size.w, bounds.size.h));
 
   // create GFonts for text layers...
   s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_COOPER_28));
